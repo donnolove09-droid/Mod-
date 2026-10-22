@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: qdon-enlite
+    runtime: static
+    buildCommand: echo "static site"
+    staticPublishPath: .
